@@ -11,7 +11,7 @@ import java.util.Random;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class TextBoxFormWithFakerTests {
+public class TextBoxFormWithFakerTests extends TestBase{
 
     private final String[] genders = {"Male", "Female", "Other"};
     private final String[] months = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
